@@ -1,0 +1,73 @@
+
+<h1 class="text-center p-3">University of calicut</h1>
+
+<table class="table">
+  <thead>
+    {{#each marks}}
+    <tr>
+      <th scope="col">Name:{{this.name}}</th>
+      <th scope="col">Register number:{{this.register}}</th>
+      <th scope="col"></th>
+      <th scope="col"></th>
+       <th scope="col"></th>
+    </tr>
+    {{/each}}
+    <tr>
+      <th scope="col">Course code</th>
+      <th scope="col">Course title</th>
+      <th scope="col">Marks</th>
+      <th scope="col">Total Marks</th>
+       <th scope="col">Grade</th>
+    </tr>
+  </thead>
+  <tbody>
+  
+    {{#each marks}}
+
+    
+    <tr>
+      <th scope="row">{{this.courseCode1}}</th>
+      <td>{{this.course_title1}}</td>
+      <td>{{this.marks1}}</td>
+      <td>{{this.total_marks1}}</td>
+      <td>{{this.grade1}}</td>
+    </tr>
+    <tr>
+      <th scope="row">{{this.courseCode2}}</th>
+      <td>{{this.course_title2}}</td>
+      <td>{{this.marks2}}</td>
+      <td>{{this.total_marks2}}</td>
+      <td>{{this.grade2}}</td>
+    </tr>
+    <tr>
+      <th scope="row">{{this.courseCode3}}</th>
+      <td>{{this.course_title3}}</td>
+      <td>{{this.marks3}}</td>
+      <td>{{this.total_marks3}}</td>
+      <td>{{this.grade3}}</td>
+    </tr>
+    <tr>
+      <th scope="row">{{this.courseCode4}}</th>
+      <td>{{this.course_title4}}</td>
+      <td>{{this.marks4}}</td>
+      <td>{{this.total_marks4}}</td>
+      <td>{{this.grade4}}</td>
+    </tr>
+    <tr>
+      <th scope="row">{{this.courseCode5}}</th>
+      <td>{{this.course_title5}}</td>
+      <td>{{this.marks5}}</td>
+      <td>{{this.total_marks5}}</td>
+      <td>{{this.grade5}}</td>
+    </tr>
+    <tr>
+      <th scope="row">{{this.courseCode6}}</th>
+      <td>{{this.course_title6}}</td>
+      <td>{{this.marks6}}</td>
+      <td>{{this.total_marks6}}</td>
+      <td>{{this.grade6}}</td>
+    </tr>
+    {{/each}}
+    
+  </tbody>
+</table>
